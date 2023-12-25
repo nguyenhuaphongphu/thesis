@@ -52,6 +52,7 @@ public class ApiGatewayConfiguration {
                         .uri("lb://email"))
 
 //For recommendation-service
+            //hello
                 .route(p -> p.path("/transpose/**")
                         .uri("lb://recommendation"))
                 .build();
